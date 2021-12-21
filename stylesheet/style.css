@@ -1804,3 +1804,26 @@ footer {
         font-size: 2.4rem;
     }
 }
+
+@media screen and (max-width:411px) {
+    .container {
+        max-width: 395px;
+    }
+    /* flex */
+    .smm-flex-100 {
+        flex: 0 1 100%;
+    }
+    .smm-column {
+        flex-direction: column;
+    }
+    /* our-mission */
+    .small-article h4 {
+        font-size: 1.6rem;
+    }
+    .small-article p {
+        font-size: 1.23rem;
+    }
+    .small-article a {
+        font-size: 1.2rem;
+    }
+}
